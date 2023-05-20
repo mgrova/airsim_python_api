@@ -3,12 +3,12 @@
 This package contains Python APIs for [AirSim](https://github.com/microsoft/airsim).
 
 ## How to Use
-See examples at [car/hello_car.py](https://github.com/Microsoft/AirSim/blob/master/PythonClient/car/hello_car.py) or [multirotor/hello_drone.py](https://github.com/microsoft/AirSim/blob/master/PythonClient/multirotor/hello_drone.py).
+See examples at [examples/car/hello_car.py](https://github.com/Microsoft/AirSim/blob/master/PythonClient/car/hello_car.py) or [examples/multirotor/hello_drone.py](https://github.com/microsoft/AirSim/blob/master/PythonClient/multirotor/hello_drone.py).
 
 ## Dependencies
 This package depends on `msgpack` and would automatically install `msgpack-rpc-python` (this may need administrator/sudo prompt):
 ```
-pip install msgpack-rpc-python
+pip3 install msgpack-rpc-python
 ```
 
 Some examples also requires opencv.

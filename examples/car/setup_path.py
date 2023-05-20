@@ -40,7 +40,7 @@ class SetupPath:
         #if airsim_loader is not None:
         #    return
 
-        parent = SetupPath.getParentDir()
+        parent = SetupPath.getGrandParentDir()
         if parent !=  '':
             airsim_path = os.path.join(parent, 'airsim')
             client_path = os.path.join(airsim_path, 'client.py')
